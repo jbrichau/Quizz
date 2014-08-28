@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"withList:" : "JohanBrichau 8/28/2014 20:28" },
+	"instance" : {
+		"add:" : "JohanBrichau 8/28/2014 20:29",
+		"createNew:" : "JohanBrichau 8/28/2014 20:54",
+		"list" : "JohanBrichau 8/28/2014 20:28",
+		"list:" : "JohanBrichau 8/28/2014 20:28",
+		"menuName" : "JohanBrichau 8/28/2014 20:39",
+		"renderAddNewOn:" : "JohanBrichau 8/28/2014 21:21",
+		"renderContentOn:" : "JohanBrichau 8/28/2014 20:44",
+		"renderListOn:" : "JohanBrichau 8/28/2014 21:03",
+		"renderWelcomeScreenInternalOn:" : "JohanBrichau 8/28/2014 21:07",
+		"renderWelcomeScreenOn:" : "JohanBrichau 8/28/2014 21:06" } }

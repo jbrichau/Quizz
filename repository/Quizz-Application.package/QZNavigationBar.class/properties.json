@@ -1,0 +1,14 @@
+{
+	"category" : "Quizz-Application",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QZNavigationBar",
+	"pools" : [
+		 ],
+	"super" : "WADecoration",
+	"type" : "normal" }

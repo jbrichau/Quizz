@@ -1,0 +1,15 @@
+{
+	"category" : "Quizz-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rounds",
+		"teams" ],
+	"name" : "QZEvent",
+	"pools" : [
+		 ],
+	"super" : "QZObject",
+	"type" : "normal" }

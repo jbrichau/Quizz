@@ -1,0 +1,14 @@
+{
+	"category" : "Quizz-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QZTeam",
+	"pools" : [
+		 ],
+	"super" : "QZObject",
+	"type" : "normal" }

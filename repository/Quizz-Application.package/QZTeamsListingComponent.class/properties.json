@@ -1,0 +1,14 @@
+{
+	"category" : "Quizz-Application",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QZTeamsListingComponent",
+	"pools" : [
+		 ],
+	"super" : "QZListingComponent",
+	"type" : "normal" }

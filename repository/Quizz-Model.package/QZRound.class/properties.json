@@ -1,0 +1,14 @@
+{
+	"category" : "Quizz-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scoresPerTeam" ],
+	"name" : "QZRound",
+	"pools" : [
+		 ],
+	"super" : "QZObject",
+	"type" : "normal" }

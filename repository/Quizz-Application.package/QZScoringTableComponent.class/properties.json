@@ -1,0 +1,14 @@
+{
+	"category" : "Quizz-Application",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"event" ],
+	"name" : "QZScoringTableComponent",
+	"pools" : [
+		 ],
+	"super" : "QZComponent",
+	"type" : "normal" }
