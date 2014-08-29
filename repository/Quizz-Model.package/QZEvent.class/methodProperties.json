@@ -1,8 +1,9 @@
 {
 	"class" : {
-		 },
+		"allEvents" : "JohanBrichau 8/29/2014 23:55",
+		"initialize" : "JohanBrichau 8/29/2014 23:54" },
 	"instance" : {
-		"initialize" : "JohanBrichau 8/29/2014 21:28",
+		"initialize" : "JohanBrichau 8/30/2014 00:18",
 		"rounds" : "JohanBrichau 8/28/2014 20:31",
 		"rounds:" : "JohanBrichau 8/28/2014 20:31",
 		"teams" : "JohanBrichau 8/28/2014 20:32",

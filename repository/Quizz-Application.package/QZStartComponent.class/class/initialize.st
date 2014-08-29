@@ -5,4 +5,5 @@ initialize
 	app preferenceAt: #sessionClass put: QZSession.
 	app 
     addLibrary: JQDeploymentLibrary;
+    addLibrary: JQUiDeploymentLibrary;
     addLibrary: TBSDeploymentLibrary

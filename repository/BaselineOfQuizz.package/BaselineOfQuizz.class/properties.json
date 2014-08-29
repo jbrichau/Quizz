@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"LastVersionLoad" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"project" ],
+		 ],
 	"name" : "BaselineOfQuizz",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }

@@ -22,9 +22,9 @@ baseline: spec
 					repository: 'hhttp://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main'].
 				
 		spec
-			package: 'Quiz-Model';
-			package: 'Quiz-Application' with:[spec requires: #('Seaside3' 'Bootstrap')].
+			package: 'Quizz-Model';
+			package: 'Quizz-Application' with:[spec requires: #('Seaside3' 'Bootstrap')].
 			
-		spec group:'default' with: #('Quiz-Model' 'Quiz-Application')
+		spec group:'default' with: #('Quizz-Model' 'Quizz-Application')
 		
 	]

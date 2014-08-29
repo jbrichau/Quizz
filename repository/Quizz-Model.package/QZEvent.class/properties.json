@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"AllEvents" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"rounds",
