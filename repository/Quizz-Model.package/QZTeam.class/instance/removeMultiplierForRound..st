@@ -1,0 +1,3 @@
+accessing
+removeMultiplierForRound: aRound
+	multipliersPerRound removeKey: aRound

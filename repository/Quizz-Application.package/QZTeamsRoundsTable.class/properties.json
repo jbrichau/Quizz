@@ -1,0 +1,14 @@
+{
+	"category" : "Quizz-Application",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QZTeamsRoundsTable",
+	"pools" : [
+		 ],
+	"super" : "QZComponent",
+	"type" : "normal" }

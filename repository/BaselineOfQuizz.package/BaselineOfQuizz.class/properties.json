@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfQuizz",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "BaselineOfQuizz",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

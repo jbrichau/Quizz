@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"hasMultiplierForRound:" : "JohanBrichau 8/29/2014 21:31",
+		"initialize" : "JohanBrichau 8/29/2014 21:53",
+		"multiplierForRound:" : "JohanBrichau 8/29/2014 21:35",
+		"multiplierForRound:put:" : "JohanBrichau 8/29/2014 21:32",
+		"removeMultiplierForRound:" : "JohanBrichau 8/29/2014 21:56" } }

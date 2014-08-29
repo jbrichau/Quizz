@@ -1,3 +1,3 @@
 accessing
 list
-	^ list
+	self subclassResponsibility

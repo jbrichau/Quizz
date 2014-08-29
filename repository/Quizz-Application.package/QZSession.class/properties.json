@@ -1,0 +1,14 @@
+{
+	"category" : "Quizz-Application",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"event" ],
+	"name" : "QZSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

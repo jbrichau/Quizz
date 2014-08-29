@@ -1,0 +1,15 @@
+{
+	"category" : "Quizz-Application",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"subComponents",
+		"activeComponent" ],
+	"name" : "QZEventEditingComponent",
+	"pools" : [
+		 ],
+	"super" : "QZComponent",
+	"type" : "normal" }

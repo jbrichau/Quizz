@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"onEvent:" : "JohanBrichau 8/28/2014 18:46" },
-	"instance" : {
-		"event" : "JohanBrichau 8/28/2014 20:31",
-		"initializeWithEvent:" : "JohanBrichau 8/28/2014 21:21",
-		"renderContentOn:" : "JohanBrichau 8/28/2014 18:44" } }
