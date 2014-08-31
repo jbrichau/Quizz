@@ -1,9 +1,8 @@
 rendering
 renderContentOn: html
-	| showMultipliers |
+
 	eventsListing renderOn: html.
-	
-	showMultipliers := false.
+
 	self session event ifNotNil: [ 
 		html anchor
 			class: 'btn btn-primary btn-large';
@@ -29,8 +28,8 @@ renderContentOn: html
 					
 					html div class:'checkbox'; with:[ html label:[
 							html checkbox 
-							onTrue:[ showMultipliers := true ] onFalse: [showMultipliers := false ];
-							value: showMultipliers;
+							onTrue:[ self session applymultipliers: true ] onFalse: [ self session applymultipliers:  false ];
+							value: self session applymultipliers;
 							onClick: (html jQuery ajax serializeThisWithHidden).
 						html text: 'Met jokers']].
 					

@@ -1,3 +1,3 @@
 private
 showMultiplierFor: aTeam in: aRound
-	^ applymultipliers and:[aTeam hasMultiplierForRound: aRound]
+	^ self session applymultipliers and:[aTeam hasMultiplierForRound: aRound]
