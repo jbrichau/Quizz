@@ -19,11 +19,21 @@ baseline: spec
 				spec
 					className: 'ConfigurationOfBootstrap';
 					versionString: #stable;
-					repository: 'hhttp://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main'].
+					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/Bootstrap/main'].
+				
+		spec
+			project: 'JQueryWidgetBox'
+			with: [ 
+				spec 
+					className: 'ConfigurationOfJQueryWidgetBox';
+					versionString: #stable;
+					loads: #('JQWidgetBox-JEditable-Core');
+					repository: 'http://smalltalkhub.com/mc/Seaside/JQueryWidgetBox/main'
+				 ].
 				
 		spec
 			package: 'Quizz-Model';
-			package: 'Quizz-Application' with:[spec requires: #('Seaside3' 'Bootstrap')].
+			package: 'Quizz-Application' with:[spec requires: #('Seaside3' 'Bootstrap' 'JQueryWidgetBox')].
 			
 		spec group:'default' with: #('Quizz-Model' 'Quizz-Application')
 		

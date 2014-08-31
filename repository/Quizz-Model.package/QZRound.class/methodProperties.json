@@ -2,6 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "JohanBrichau 8/28/2014 21:18",
-		"scoreForTeam:ifAbsent:" : "JohanBrichau 8/29/2014 23:24",
-		"scoreForTeam:put:" : "JohanBrichau 8/29/2014 22:33" } }
+		"hasScores" : "JohanBrichau 8/31/2014 11:02",
+		"hideInRanking" : "JohanBrichau 8/31/2014 13:41",
+		"initialize" : "JohanBrichau 8/31/2014 13:32",
+		"isVisibleInRanking" : "JohanBrichau 8/31/2014 13:32",
+		"maxScore" : "JohanBrichau 8/31/2014 11:28",
+		"maxScore:" : "JohanBrichau 8/31/2014 11:28",
+		"scoreForTeam:ifAbsent:" : "JohanBrichau 8/31/2014 13:03",
+		"scoreForTeam:put:" : "JohanBrichau 8/31/2014 11:55",
+		"showInRanking" : "JohanBrichau 8/31/2014 13:41",
+		"winningTeams" : "JohanBrichau 8/31/2014 13:37" } }

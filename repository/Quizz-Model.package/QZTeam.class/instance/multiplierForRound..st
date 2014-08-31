@@ -1,3 +1,3 @@
 accessing
 multiplierForRound: aRound
-	^ multipliersPerRound at: aRound ifAbsent:[nil]
+	^ multipliersPerRound at: aRound ifAbsent:[[:x | x]]

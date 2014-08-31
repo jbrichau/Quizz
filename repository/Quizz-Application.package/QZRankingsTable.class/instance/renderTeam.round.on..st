@@ -1,5 +1,5 @@
 rendering
 renderTeam: aTeam round: aRound on: html
 	html tableData
-		class: 'bg-primary' if: (aTeam hasMultiplierForRound: aRound);
+		class: 'bg-primary' if: (self showMultiplierFor: aTeam in: aRound);
 		with: [ html text: (aRound scoreForTeam: aTeam ifAbsent:['']) ]

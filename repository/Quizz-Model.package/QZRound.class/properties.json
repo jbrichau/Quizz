@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"scoresPerTeam" ],
+		"scoresPerTeam",
+		"maxScore",
+		"visible" ],
 	"name" : "QZRound",
 	"pools" : [
 		 ],

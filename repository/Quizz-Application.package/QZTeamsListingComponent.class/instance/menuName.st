@@ -1,3 +1,3 @@
 accessing
 menuName
-	^ 'Teams'
+	^ 'Ploegen'

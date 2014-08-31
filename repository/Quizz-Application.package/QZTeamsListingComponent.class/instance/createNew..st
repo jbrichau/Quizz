@@ -1,3 +1,3 @@
 actions
 createNew: aName
-	^ QZTeam new name: (aName ifEmpty:['Nieuw team'])
+	^ QZTeam new name: (aName ifEmpty:['Nieuwe ploeg'])

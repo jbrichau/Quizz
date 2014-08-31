@@ -2,8 +2,12 @@ rendering
 renderContentOn: html
 
 	html tbsNavbar beDefault with: [ 
-		html tbsNavbarBrand
-			url: html actionUrl withoutQuery;
-			with: 'Quizz'].
-	
-	html tbsContainer: [ self renderNextOn: html ]
+		html tbsNavbarHeader: [
+			html tbsNavbarBrand
+				url: html actionUrl withoutQuery;
+				with: 'Quizz'].
+		
+		html tbsNavbarText
+			with: (self session event name ifNil:[''])].
+		
+	html tbsContainer: [ self renderNextOn: html ] 

@@ -10,5 +10,5 @@
 	"name" : "QZRoundsListingComponent",
 	"pools" : [
 		 ],
-	"super" : "QZListingComponent",
+	"super" : "QZSortableListingComponent",
 	"type" : "normal" }

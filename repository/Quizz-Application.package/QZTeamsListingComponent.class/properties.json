@@ -10,5 +10,5 @@
 	"name" : "QZTeamsListingComponent",
 	"pools" : [
 		 ],
-	"super" : "QZListingComponent",
+	"super" : "QZSortableListingComponent",
 	"type" : "normal" }

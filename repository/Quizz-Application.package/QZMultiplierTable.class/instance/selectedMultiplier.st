@@ -1,0 +1,3 @@
+accessing
+selectedMultiplier
+	^ #double

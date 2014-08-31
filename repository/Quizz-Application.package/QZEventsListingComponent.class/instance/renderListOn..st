@@ -6,10 +6,15 @@ renderListOn: html
 			html space.
 			html small: 'Selecteer om te beginnen' ].
 			
-	html tbsListGroup: [ 
-		self list do:[:event | 
-			html tbsLinkifyListGroupItem
-					callback: [ self session event: event. self call: (QZEventEditingComponent new) ];
-					with: event name ].
+	html tbsListGroup
+		"script: (self gridScriptForEventNameClickOn: html);"
+		with: [ 
+			self list doWithIndex:[:event :index | 
+				html tbsListGroupItem:[
+						html anchor
+							callback: [ self session event: event. self call: (QZEventEditingComponent new) ];
+							with: [ self renderItem: event atIndex: index on: html ].
+						self renderItemOperations: event on: html ] ].
 	].
-	self renderAddNewOn: html. 
+
+	self renderAddNewOn: html.

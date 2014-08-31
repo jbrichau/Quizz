@@ -10,6 +10,5 @@ renderAddNewOn: html
 			html tbsButton 
 				bePrimary;
 				beSubmit;
-
 				callback:[ self add:(self createNew: newName) ];
 				with: 'Aanmaken' ] ]

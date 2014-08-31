@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createNew:" : "JohanBrichau 8/28/2014 21:08",
+		"createNew:" : "JohanBrichau 8/30/2014 18:23",
 		"list" : "JohanBrichau 8/29/2014 21:27",
-		"menuName" : "JohanBrichau 8/28/2014 20:40" } }
+		"menuName" : "JohanBrichau 8/30/2014 18:23",
+		"removeItem:" : "JohanBrichau 8/31/2014 13:18",
+		"renderItem:atIndex:on:" : "JohanBrichau 8/31/2014 12:51" } }

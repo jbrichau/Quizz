@@ -1,0 +1,3 @@
+testing
+hasScores
+	^ scoresPerTeam notEmpty

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"teamsWithScores" ],
+		"teamsWithScores",
+		"applymultipliers",
+		"winningTeamsPerRound" ],
 	"name" : "QZRankingsTable",
 	"pools" : [
 		 ],
