@@ -1,3 +1,3 @@
 private
 isLocked
-	self subclassResponsibility 
+	^ unlocked not

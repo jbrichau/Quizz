@@ -8,6 +8,9 @@ renderContentOn: html
 				with: 'Quizz'].
 		
 		html tbsNavbarText
-			with: (self session event name ifNil:[''])].
+			with: (self session event name ifNil:['']).
+			
+		self renderRankingDialogOn: html.
+			].
 		
 	html tbsContainer: [ self renderNextOn: html ] 

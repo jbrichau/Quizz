@@ -2,7 +2,7 @@ rendering
 renderAddNewOn: html
 
 	| newName |
-	self isLocked ifFalse:[
+	self canAdd ifTrue:[
 		html tbsForm beInline; with: [
 			html tbsFormGroup: [ 
 				html label for: 'addone'; class: 'sr-only'; with: 'Naam'.

@@ -4,7 +4,8 @@
 	"instance" : {
 		"createNew:" : "JohanBrichau 8/28/2014 21:08",
 		"list" : "JohanBrichau 8/29/2014 21:27",
-		"menuName" : "JohanBrichau 8/28/2014 20:39",
+		"menuName" : "JohanBrichau 8/31/2014 19:01",
 		"removeItem:" : "JohanBrichau 8/31/2014 13:18",
-		"renderAddNewOn:" : "JohanBrichau 8/31/2014 11:31",
-		"renderItem:atIndex:on:" : "JohanBrichau 8/31/2014 11:59" } }
+		"renderAddNewOn:" : "JohanBrichau 8/31/2014 20:15",
+		"renderItem:atIndex:on:" : "JohanBrichau 8/31/2014 11:59",
+		"renderLockStateOn:" : "JohanBrichau 8/31/2014 19:50" } }

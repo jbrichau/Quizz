@@ -7,6 +7,9 @@ renderContentOn: html
 				with: [ 
 					html anchor 
 						callback:[activeComponent := comp. activeComponent receivesTabFocus]; 
-						with: comp menuName ]]].
+						with: [ html text: comp menuName.
+								  activeComponent == comp ifTrue:[
+										html html: ' '.
+								  		comp renderLockStateOn: html ] ] ] ] ].
 					
 	activeComponent renderOn: html

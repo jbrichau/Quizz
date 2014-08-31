@@ -1,0 +1,3 @@
+protocol
+receivesTabFocus
+	unlocked := false.

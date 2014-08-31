@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"list",
-		"isLocked" ],
+		"list" ],
 	"name" : "QZEventsListingComponent",
 	"pools" : [
 		 ],

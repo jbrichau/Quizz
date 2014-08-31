@@ -1,3 +1,0 @@
-scripts
-scriptToUnlockOn: html
-	self subclassResponsibility

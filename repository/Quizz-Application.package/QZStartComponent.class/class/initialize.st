@@ -6,4 +6,5 @@ initialize
 	app 
     addLibrary: JQDeploymentLibrary;
     addLibrary: JQUiDeploymentLibrary;
-    addLibrary: TBSDeploymentLibrary
+    addLibrary: TBSDeploymentLibrary;
+	 addLibrary: FAWDeploymentLibrary

@@ -1,3 +1,3 @@
 private
 isLocked
-	^ self session event rounds anySatisfy:[:round | round hasScores]
+	^ super isLocked and:[self session event rounds anySatisfy:[:round | round hasScores]]
