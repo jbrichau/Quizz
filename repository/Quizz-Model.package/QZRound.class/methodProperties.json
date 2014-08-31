@@ -8,7 +8,7 @@
 		"isVisibleInRanking" : "JohanBrichau 8/31/2014 13:32",
 		"maxScore" : "JohanBrichau 8/31/2014 11:28",
 		"maxScore:" : "JohanBrichau 8/31/2014 11:28",
-		"scoreForTeam:ifAbsent:" : "JohanBrichau 8/31/2014 13:03",
 		"scoreForTeam:put:" : "JohanBrichau 8/31/2014 11:55",
+		"scoreForTeam:withMultiplier:ifAbsent:" : "JohanBrichau 8/31/2014 14:35",
 		"showInRanking" : "JohanBrichau 8/31/2014 13:41",
 		"winningTeams" : "JohanBrichau 8/31/2014 13:37" } }

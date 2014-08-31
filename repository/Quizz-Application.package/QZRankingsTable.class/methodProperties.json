@@ -2,12 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "JohanBrichau 8/31/2014 14:25",
+		"initialize" : "JohanBrichau 8/31/2014 14:32",
 		"renderFinalDataForTeam:on:" : "JohanBrichau 8/31/2014 10:44",
 		"renderFinalHeaderOn:" : "JohanBrichau 8/29/2014 23:36",
 		"renderRoundHeader:on:" : "JohanBrichau 8/31/2014 12:01",
-		"renderTeam:round:on:" : "JohanBrichau 8/31/2014 12:38",
+		"renderTeam:round:on:" : "JohanBrichau 8/31/2014 14:35",
 		"rounds" : "JohanBrichau 8/31/2014 13:39",
 		"scoreForTeam:" : "JohanBrichau 8/29/2014 23:33",
+		"scoreForTeam:inRound:" : "JohanBrichau 8/31/2014 14:35",
 		"showMultiplierFor:in:" : "JohanBrichau 8/31/2014 14:27",
 		"teams" : "JohanBrichau 8/29/2014 23:32" } }
