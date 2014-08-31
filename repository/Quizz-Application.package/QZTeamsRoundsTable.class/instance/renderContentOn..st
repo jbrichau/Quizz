@@ -4,7 +4,7 @@ renderContentOn: html
 	| table |
 	table := html tbsTable.
 	self renderScriptsFor: table on: html. 
-	table beCondensed; beBordered; with: [ 
+	table beCondensed; beBordered; beStriped; with: [ 
 		html tableHead: [ 
 			html tableRow:[
 				html tableHeading: 'Ploeg'.

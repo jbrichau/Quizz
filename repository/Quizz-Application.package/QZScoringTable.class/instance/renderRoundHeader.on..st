@@ -1,8 +1,15 @@
 rendering
 renderRoundHeader: aRound on: html
+	| span |
 	super renderRoundHeader: aRound on: html.
+	html space.
 	html tbsButton 
 		bePrimary;
 		beExtraSmall;
-		onClick: (html jQuery ajax callback:[self openRound: aRound]; onComplete: (html javascript refresh));
-		with: 'Open'.
+		class:'pull-right';
+		onClick: (html javascript callback:[openRound == aRound ifTrue:[ self openRound: nil] ifFalse:[self openRound: aRound ] ]);
+		with:[
+			span := html span fontAwesome.
+			aRound == openRound
+				ifTrue:[ span fontAwesomeUnlockAlternativeIcon ]
+				ifFalse:[ span fontAwesomeLockIcon ] ].

@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"isLocked" : "JohanBrichau 8/31/2014 20:52",
 		"menuName" : "JohanBrichau 8/31/2014 19:01",
 		"renderFinalDataForTeam:on:" : "JohanBrichau 8/31/2014 12:29",
 		"renderFinalHeaderOn:" : "JohanBrichau 8/31/2014 12:28",
-		"renderLockStateOn:" : "JohanBrichau 8/31/2014 19:50",
+		"renderLockStateOn:" : "JohanBrichau 8/31/2014 20:53",
 		"renderScriptsFor:on:" : "JohanBrichau 8/29/2014 22:02",
-		"renderTeam:round:on:" : "JohanBrichau 8/31/2014 14:14",
+		"renderTeam:round:on:" : "JohanBrichau 8/31/2014 20:57",
 		"selectedMultiplier" : "JohanBrichau 8/31/2014 14:14",
 		"switchMultiplierForTeam:onRound:" : "JohanBrichau 8/31/2014 13:05" } }
