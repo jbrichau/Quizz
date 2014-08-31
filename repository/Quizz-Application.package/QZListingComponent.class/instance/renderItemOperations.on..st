@@ -1,5 +1,6 @@
 rendering
 renderItemOperations: anItem on: html
+	self isLocked ifFalse:[
 	html div class:'pull-right'; with: [  
 		html tbsButton 
 			beInfo;
@@ -12,4 +13,4 @@ renderItemOperations: anItem on: html
 			beExtraSmall;
 			onClick: (html javascript callback:[self removeItem: anItem]);
 			with: 'verwijder'
-		]
+		] ]

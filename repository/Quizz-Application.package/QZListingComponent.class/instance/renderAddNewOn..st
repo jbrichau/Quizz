@@ -2,7 +2,8 @@ rendering
 renderAddNewOn: html
 
 	| newName |
-	html tbsForm beInline; with: [
+	self isLocked ifFalse:[
+		html tbsForm beInline; with: [
 			html tbsFormGroup: [ 
 				html label for: 'addone'; class: 'sr-only'; with: 'Naam'.
 				html textInput tbsFormControl; id: 'addone'; autofocus; callback:[:value | newName := value]; placeholder: 'Tik nieuwe naam in'.
@@ -11,4 +12,4 @@ renderAddNewOn: html
 				bePrimary;
 				beSubmit;
 				callback:[ self add:(self createNew: newName) ];
-				with: 'Aanmaken' ] ]
+				with: 'Aanmaken' ] ] ]

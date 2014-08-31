@@ -16,5 +16,3 @@ renderListOn: html
 							with: [ self renderItem: event atIndex: index on: html ].
 						self renderItemOperations: event on: html ] ].
 	].
-
-	self renderAddNewOn: html.

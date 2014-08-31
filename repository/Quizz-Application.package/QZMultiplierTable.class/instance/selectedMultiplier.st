@@ -1,3 +1,3 @@
 accessing
 selectedMultiplier
-	^ #double
+	^ [ :x | x * 2 ]

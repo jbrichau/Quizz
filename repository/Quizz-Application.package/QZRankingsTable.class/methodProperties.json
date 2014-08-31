@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "JohanBrichau 8/31/2014 13:39",
+		"initialize" : "JohanBrichau 8/31/2014 14:16",
 		"renderFinalDataForTeam:on:" : "JohanBrichau 8/31/2014 10:44",
 		"renderFinalHeaderOn:" : "JohanBrichau 8/29/2014 23:36",
 		"renderRoundHeader:on:" : "JohanBrichau 8/31/2014 12:01",
