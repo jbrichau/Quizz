@@ -30,10 +30,19 @@ baseline: spec
 					loads: #('JQWidgetBox-JEditable-Core');
 					repository: 'http://smalltalkhub.com/mc/Seaside/JQueryWidgetBox/main'
 				 ].
+			
+		spec
+			project: 'FontAwesome'
+			with: [ 
+				spec 
+					className: 'ConfigurationOfFontAwesome';
+					versionString: #stable;
+					repository: 'http://smalltalkhub.com/mc/TorstenBergmann/FontAwesome/main'
+				 ].
 				
 		spec
 			package: 'Quizz-Model';
-			package: 'Quizz-Application' with:[spec requires: #('Seaside3' 'Bootstrap' 'JQueryWidgetBox')].
+			package: 'Quizz-Application' with:[spec requires: #('Seaside3' 'Bootstrap' 'JQueryWidgetBox' 'FontAwesome')].
 			
 		spec group:'default' with: #('Quizz-Model' 'Quizz-Application')
 		
