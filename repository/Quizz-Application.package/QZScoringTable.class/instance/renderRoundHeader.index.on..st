@@ -1,7 +1,7 @@
 rendering
-renderRoundHeader: aRound on: html
+renderRoundHeader: aRound index: index on: html
 	| span |
-	super renderRoundHeader: aRound on: html.
+	super renderRoundHeader: aRound index: index on: html.
 	html space.
 	html tbsButton 
 		bePrimary;

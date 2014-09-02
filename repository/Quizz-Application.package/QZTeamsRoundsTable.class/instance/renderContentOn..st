@@ -9,7 +9,7 @@ renderContentOn: html
 			html tableRow:[
 				html tableHeading: 'Ploeg'.
 				self renderFinalHeaderOn: html.
-				self rounds do:[:round | html tableHeading: [ self renderRoundHeader: round on: html ] ].
+				self rounds doWithIndex:[:round :index | html tableHeading: [ self renderRoundHeader: round index: index on: html ] ].
 ].
 		html tableBody: [ 
 			self teams doWithIndex: [:team :index | 

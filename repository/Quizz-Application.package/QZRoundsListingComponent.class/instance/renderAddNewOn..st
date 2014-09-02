@@ -12,5 +12,6 @@ renderAddNewOn: html
 				html html: ' '.
 				html label for: 'addone'; class: 'control-label'; with: 'Maximum score'.
 				html html: ' '.
-				html textInput tbsFormControl; id: 'addone'; autofocus; callback:[:value | [maxScore := (Integer readFromString: value). errorValue := false ] on: Error do:[:e | errorValue := true ] ]; placeholder: 'Voer getal in'.
+				html textInput tbsFormControl; id: 'addone'; attributeAt: 'required' put:'required'; callback:[:value | [maxScore := (Integer readFromString: value). errorValue := false ] on: Error do:[:e | errorValue := true ] ]; placeholder: 'Voer getal in'.
+				html html: ' '.
 				html tbsButton bePrimary; beSubmit; callback:[ errorValue ifFalse:[self add: ((self createNew: newName) maxScore: maxScore; yourself) ] ]; with: 'Aanmaken' ] ] ]
