@@ -5,7 +5,7 @@ renderItemOperations: anItem on: html
 		html tbsButton 
 			beInfo;
 			beExtraSmall;
-			"onClick: (html javascript callback:[self ]);"
+			onClick: (html javascript callback:[self editItem: anItem]);
 			with: 'wijzig'.
 		html space.
 		html tbsButton 

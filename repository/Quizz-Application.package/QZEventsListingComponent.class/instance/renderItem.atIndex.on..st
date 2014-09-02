@@ -1,3 +1,3 @@
 rendering
-renderItem: event atIndex: index on: html
-	html text: event name
+renderItem: anItem atIndex: anIndex on: html
+	self renderItemName: anItem on: html
