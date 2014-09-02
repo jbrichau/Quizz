@@ -1,5 +1,5 @@
 rendering
 renderRoundHeader: aRound index: index on: html
-	html strong: index greaseString.
-	html text: '. '.
-	html render: aRound name.
+	html strong
+		title: aRound name;
+		with: index greaseString.

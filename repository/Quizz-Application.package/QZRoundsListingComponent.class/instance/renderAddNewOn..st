@@ -4,7 +4,7 @@ renderAddNewOn: html
 	| newName maxScore errorValue |
 	errorValue := false.
 	self canAdd ifTrue:[
-	html tbsForm beInline; with: [
+	html tbsForm beInline; noAutocomplete; with: [
 			html tbsFormGroup: [ 
 				html label for: 'addone'; class: 'control-label'; with: 'Naam'.
 				html html: ' '.

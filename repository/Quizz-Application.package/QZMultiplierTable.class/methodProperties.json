@@ -2,12 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"initialize" : "JohanBrichau 9/2/2014 17:42",
 		"isLocked" : "JohanBrichau 8/31/2014 20:52",
 		"menuName" : "JohanBrichau 8/31/2014 19:01",
+		"receivesTabFocus" : "JohanBrichau 9/2/2014 17:45",
+		"renderContentOn:" : "JohanBrichau 9/2/2014 17:44",
 		"renderFinalDataForTeam:on:" : "JohanBrichau 8/31/2014 12:29",
 		"renderFinalHeaderOn:" : "JohanBrichau 8/31/2014 12:28",
-		"renderLockStateOn:" : "JohanBrichau 8/31/2014 20:53",
-		"renderScriptsFor:on:" : "JohanBrichau 8/29/2014 22:02",
+		"renderLockStateOn:" : "JohanBrichau 9/2/2014 17:43",
+		"renderLockingOn:" : "JohanBrichau 9/2/2014 17:43",
+		"renderScriptsFor:on:" : "JohanBrichau 9/2/2014 17:45",
 		"renderTeam:round:on:" : "JohanBrichau 8/31/2014 20:57",
 		"selectedMultiplier" : "JohanBrichau 8/31/2014 14:14",
-		"switchMultiplierForTeam:onRound:" : "JohanBrichau 8/31/2014 13:05" } }
+		"switchMultiplierForTeam:onRound:" : "JohanBrichau 8/31/2014 13:05",
+		"unlock" : "JohanBrichau 9/2/2014 17:44" } }
