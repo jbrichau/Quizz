@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	self addDecoration: QZNavigationBar new
+	rankingsTable := QZRankingsTable new

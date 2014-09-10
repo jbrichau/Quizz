@@ -14,6 +14,8 @@ renderContentOn: html
 		html tableBody: [ 
 			self teams doWithIndex: [:team :index | 
 				html tableRow: [
-					html tableData: [self renderTeamHeader: team index: index on: html].
+					html tableData
+						class: 'teamname';
+						with: [self renderTeamHeader: team index: index on: html].
 					self renderFinalDataForTeam: team on: html.
 					self rounds do: [:round | self renderTeam: team round: round on: html ] ] ] ] ] ]

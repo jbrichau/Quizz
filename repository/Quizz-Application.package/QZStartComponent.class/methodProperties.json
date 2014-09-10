@@ -2,5 +2,6 @@
 	"class" : {
 		"initialize" : "JohanBrichau 8/31/2014 19:39" },
 	"instance" : {
-		"initialize" : "JohanBrichau 8/29/2014 21:22",
-		"renderContentOn:" : "JohanBrichau 8/31/2014 18:40" } }
+		"initialize" : "JohanBrichau 9/10/2014 20:37",
+		"keepAliveScriptOn:" : "JohanBrichau 9/10/2014 20:16",
+		"renderContentOn:" : "JohanBrichau 9/10/2014 20:15" } }

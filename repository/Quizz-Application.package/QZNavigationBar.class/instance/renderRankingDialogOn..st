@@ -31,7 +31,7 @@ renderRankingDialogOn: html
 							onClick: (html jQuery ajax serializeThisWithHidden).
 						html text: 'Met jokers']].
 					html tbsButton attributeAt: 'data-dismiss' put: 'modal'; with: 'Close'.
-					html tbsButton bePrimary; attributeAt: 'data-dismiss' put: 'modal'; onClick: (html javascript callback: [ self decoratedComponent call: QZRankingsTable new ] target: '_blank'); with: 'Open' 	
+					html tbsButton bePrimary; attributeAt: 'data-dismiss' put: 'modal'; onClick: (html javascript callback: [ self decoratedComponent call: QZRankingsComponent new ] target: '_blank'); with: 'Open' 	
 				 ]
 			]
 		]	

@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"renderContentOn:" : "JohanBrichau 9/2/2014 17:21",
+		"renderContentOn:" : "JohanBrichau 9/10/2014 21:11",
 		"renderFinalDataForTeam:on:" : "JohanBrichau 8/29/2014 23:38",
 		"renderFinalHeaderOn:" : "JohanBrichau 8/29/2014 23:36",
 		"renderRoundHeader:index:on:" : "JohanBrichau 9/2/2014 17:50",
 		"renderScriptsFor:on:" : "JohanBrichau 8/29/2014 21:48",
 		"renderTeam:round:on:" : "JohanBrichau 8/29/2014 21:35",
-		"renderTeamHeader:index:on:" : "JohanBrichau 8/31/2014 12:06",
+		"renderTeamHeader:index:on:" : "JohanBrichau 9/10/2014 21:04",
 		"rounds" : "JohanBrichau 8/31/2014 10:59",
 		"teams" : "JohanBrichau 8/29/2014 23:09" } }
